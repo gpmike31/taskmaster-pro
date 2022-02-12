@@ -288,3 +288,7 @@ $("#remove-tasks").on("click", function() {
 
 // load tasks for the first time
 loadTasks();
+
+setInterval(function() {
+  // code to execute
+}, (1000 * 60) * 30);
